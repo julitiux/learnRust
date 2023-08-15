@@ -1,4 +1,5 @@
 use std::io;
+use std::Rng;
 
 fn main() {
     println!("Guess the number!");
