@@ -30,11 +30,11 @@ fn main() {
     // Floating-Point Types
     println!("\nFLOATING-POINT \n");
 
-    let xx = 2.0; // f64
-    println!("Floating-point f64 {}", xx);
+    let x = 2.0; // f64
+    println!("Floating-point f64 {}", x);
 
-    let yy :f32 = 3.0; // f32
-    println!("Floating-point f32 {}", yy);
+    let y :f32 = 3.0; // f32
+    println!("Floating-point f32 {}", y);
 
 
     // Numeric Operation
