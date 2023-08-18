@@ -6,6 +6,7 @@ fn main() {
     println!("The value of x is {}", x);
 
     // Shadowing
+    println!("\nSHADOWING \n");
 
     let x = 5;
     let x = x + 1;
@@ -16,17 +17,47 @@ fn main() {
     let spaces = spaces.len();
     // let mut spaces = "   ";
     // spaces = spaces.len();
+    println!("The value of spaces is: {}", spaces);
 
 
     // Data Types
+    println!("\nDATA TYPES \n");
 
     let guess: u32 = "42".parse().expect("Not a Number!");
     // let guess = "42".parse().expect("Not a Number!");
+    println!("guess {}", guess);
 
     // Floating-Point Types
+    println!("\nFLOATING-POINT \n");
 
     let xx = 2.0; // f64
+    println!("Floating-point f64 {}", xx);
 
     let yy :f32 = 3.0; // f32
+    println!("Floating-point f32 {}", yy);
+
+
+    // Numeric Operation
+    println!("\nNUMERIC OPERATION \n");
+
+    // addition
+    let sum = 5 + 10;
+    println!("sum {}", sum);
+
+    // substraction
+    let difference = 95.5 - 4.3;
+    println!("difference {}", difference);
+
+    // multiplication
+    let product = 4 * 30;
+    println!("product {}", product);
+
+    // division
+    let quotient = 56.7 / 32.2;
+    println!("quotient {}", quotient);
+
+    // remainder
+    let remainder = 43 % 5;
+    println!("remainder {}", remainder);
 
 }
