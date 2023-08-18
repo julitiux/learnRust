@@ -23,4 +23,10 @@ fn main() {
     let guess: u32 = "42".parse().expect("Not a Number!");
     // let guess = "42".parse().expect("Not a Number!");
 
+    // Floating-Point Types
+
+    let xx = 2.0; // f64
+
+    let yy :f32 = 3.0; // f32
+
 }
