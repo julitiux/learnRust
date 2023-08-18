@@ -12,7 +12,15 @@ fn main() {
     let x = x * 2;
     println!("The value of x is: {}", x);
 
-    let mut spaces = "   ";
-    spaces = spaces.len();
+    let spaces = "   ";
+    let spaces = spaces.len();
+    // let mut spaces = "   ";
+    // spaces = spaces.len();
+
+
+    // Data Types
+
+    let guess: u32 = "42".parse().expect("Not a Number!");
+    // let guess = "42".parse().expect("Not a Number!");
 
 }
