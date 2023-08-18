@@ -72,4 +72,14 @@ fn main() {
     println!("false: {}", f);
 
 
+    // Character Type
+    println!("\nCHARACTER TYPE \n");
+
+    let c = 'z';
+    let z = 'c';
+    let heart_eye_cat = '😻';
+
+    println!("letter c {}",c);
+    println!("letter z {}",z);
+    println!("icen cat {}",heart_eye_cat);
 }
