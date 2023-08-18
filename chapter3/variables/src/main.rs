@@ -60,4 +60,16 @@ fn main() {
     let remainder = 43 % 5;
     println!("remainder {}", remainder);
 
+
+    // Boolean Type
+    println!("\nBOOLEAN TYPE \n");
+
+    let t = true;
+
+    let f: bool = false; // with explicit type annotation
+
+    println!("true: {}", t);
+    println!("false: {}", f);
+
+
 }
