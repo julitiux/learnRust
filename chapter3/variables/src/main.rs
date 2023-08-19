@@ -19,7 +19,6 @@ fn main() {
     // spaces = spaces.len();
     println!("The value of spaces is: {}", spaces);
 
-
     // Data Types
     println!("\nDATA TYPES \n");
 
@@ -35,7 +34,6 @@ fn main() {
 
     let y :f32 = 3.0; // f32
     println!("Floating-point f32 {}", y);
-
 
     // Numeric Operation
     println!("\nNUMERIC OPERATION \n");
@@ -71,7 +69,6 @@ fn main() {
     println!("true: {}", t);
     println!("false: {}", f);
 
-
     // Character Type
     println!("\nCHARACTER TYPE \n");
 
@@ -83,8 +80,7 @@ fn main() {
     println!("letter z {}",z);
     println!("icen cat {}",heart_eye_cat);
 
-
-
+    // Tupla type
     println!("\nTUPLA TYPE \n");
 
     let tup: (i32, f64, u8) = (500, 6.4, 1);
@@ -103,5 +99,34 @@ fn main() {
     println!("\nfive hundred {}", five_hundred);
     println!("six point four {}", six_point_four);
     println!("one {}", one);
+
+    // Array type
+    println!("\nARRAY TYPE \n");
+
+    let a = [1, 2, 3, 4, 5];
+
+    println!("a[0] {}", a[0]);
+    println!("a[1] {}", a[1]);
+    println!("a[2] {}", a[2]);
+    println!("a[3] {}", a[3]);
+    println!("a[4] {}", a[4]);
+
+    let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+    println!("\nmonths[0] {}",months[0]);
+
+    // Declare a new array with signed 32 bits and five elements
+    let a : [i32; 5] = [1,2,3,4,5];
+
+    println!("first element {} = 1", a[0]);
+
+    // Declare a new arreay with five elements just all the content is 3
+    let a = [3;5];
+
+    println!("a[0] {}", a[0]);
+    println!("a[1] {}", a[1]);
+    println!("a[2] {}", a[2]);
+    println!("a[3] {}", a[3]);
+    println!("a[4] {}", a[4]);
 
 }
