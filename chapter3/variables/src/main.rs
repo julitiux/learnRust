@@ -84,8 +84,13 @@ fn main() {
     println!("icen cat {}",heart_eye_cat);
 
 
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
 
-    println!("tupla: {}", tup);
+    println!("\nTUPLA TYPE \n");
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let (x, y, z) = tup;
+
+    println!("The value of x: {}", x);
+    println!("The value of y: {}", y);
+    println!("The value of z: {}", z);
 
 }
