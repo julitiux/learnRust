@@ -82,4 +82,10 @@ fn main() {
     println!("letter c {}",c);
     println!("letter z {}",z);
     println!("icen cat {}",heart_eye_cat);
+
+
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+
+    println!("tupla: {}", tup);
+
 }
