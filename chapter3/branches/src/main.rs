@@ -12,4 +12,13 @@ fn main() {
         println!("number is not divisible by 4,3, or 2");
     }
 
+    let condition = true;
+    let other_number = if condition {
+        5
+    } else {
+        "six"
+    };
+
+    println!("The value of number is: {}", other_number);
+
 }
