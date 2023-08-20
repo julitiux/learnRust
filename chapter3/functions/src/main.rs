@@ -8,6 +8,10 @@ fn main() {
 
     println!("function five {}", five);
 
+    let x = plus_one(5);
+
+    println!("The value of x is: {}", x);
+
 }
 
 fn another_function() {
@@ -21,4 +25,8 @@ fn another_function1(x: i32, y: i32){
 
 fn five() -> i32 {
     5
+}
+
+fn plus_one(x: u32) -> u32 {
+    x + 1
 }
