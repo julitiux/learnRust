@@ -4,7 +4,9 @@ fn main() {
     another_function();
     another_function1(5, 6);
 
-    println!("function five {}", five());
+    let five = five();
+
+    println!("function five {}", five);
 
 }
 
