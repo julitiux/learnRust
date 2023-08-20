@@ -16,7 +16,7 @@ fn main() {
     let other_number = if condition {
         5
     } else {
-        "six"
+        6
     };
 
     println!("The value of number is: {}", other_number);
