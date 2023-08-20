@@ -129,4 +129,12 @@ fn main() {
     println!("a[3] {}", a[3]);
     println!("a[4] {}", a[4]);
 
+    let a = [1, 2, 3, 4, 5];
+
+    let first = a[0];
+    let second = a[1];
+
+    println!("\naccesing first element = {} ", first);
+    println!("accesing second element = {} ", second);
+
 }
